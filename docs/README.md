@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/logo.png
 actionText: Get Started →
-actionLink: /Note/
+actionLink: /pages/Windows/
 features:
 - title: Window
   details: 工先善其事，必先利其器，分享个人生活中高效工具,提高工作效率。

@@ -34,7 +34,7 @@ git commit -m "`date` "
 
 #git push -f https://github.com/Linena/linena.github.io.git master
 
-git push -f git@github.com:Linena/linena.github.io.git master 
+git push -f git@github.com:Linena/linena.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
