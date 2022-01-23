@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-# 设置字体颜色函数
+# 设置字体颜色函数  
 function blue(){
     echo -e "\033[34m\033[01m $1 \033[0m"
 }
