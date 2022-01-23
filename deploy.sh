@@ -9,10 +9,12 @@ function blue(){
 set -e
 
 # 备份项目到仓库中
- git add .
- git commit -m "`date` "
- git remote set-url origin git@github.com:Linena/linena.github.io.git
- git push origin master
+git add .
+git commit -m "`date` "
+git config --global user.name "Linena"
+git config --global user.email "2776217800@qq.com"
+git remote add origin git@github.com:Linena/linena.github.io.git
+git push origin master
 
 blue "========================================="
 blue "==============  备份成功！  ==============="
@@ -36,7 +38,9 @@ git commit -m "`date` "
 
 #git push -f https://github.com/Linena/linena.github.io.git master
 
-git remote set-url origin git@github.com:Linena/linena.github.io.git
+git config --global user.name "Linena"
+git config --global user.email "2776217800@qq.com"
+git remote add origin git@github.com:Linena/linena.github.io.git
 git push -f origin master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
