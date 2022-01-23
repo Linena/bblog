@@ -10,7 +10,7 @@ set -e
 # 备份项目到仓库中
 git add .
 git commit -m "`date` "
-git push origin master
+git push git@github.com:Linena/blog.git master
 
 blue "========================================="
 blue "==============  备份成功！  ==============="
@@ -34,7 +34,7 @@ git commit -m "`date` "
 
 #git push -f https://github.com/Linena/linena.github.io.git master
 
-git push -f git@github.com:Linena/blog.git master
+git push -f git@github.com:Linena/linena.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
@@ -43,5 +43,5 @@ cd -
 
 blue "========================================="
 blue "==============  发布成功！  ==============="
-blue "========= http://doc.orangbus.cn ========"
-blue "============= By Orangbus ==============="
+blue "========= https://linena.github.io/ ========"
+blue "============= By Line ==============="
