@@ -1,0 +1,16 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Linena/blog.git",
+  "author": "Line <2776217800@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^2.0.0-beta.33",
+    "vuepress-plugin-medium-zoom": "^1.1.9"
+  }
+}
