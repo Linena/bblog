@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-# 设置字体颜色函数  
+# 设置字体颜色函数
 function blue(){
     echo -e "\033[34m\033[01m $1 \033[0m"
 }
@@ -34,7 +34,7 @@ git commit -m "`date` "
 
 #git push -f https://github.com/Linena/linena.github.io.git master
 
-git push -f git@github.com:Linena/linena.github.io.git master
+git push -f git@github.com:Linena/linena.github.io.git master 
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
