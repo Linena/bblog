@@ -91,7 +91,7 @@ Operation not permitted - /usr/bin/sass`
 sudo gem install -n /usr/local/bin sass
 ```
 
-## 7.检测是否成功安装sass
+## 7.检测是否成功安装sass  
 
 ```
 sass -v
