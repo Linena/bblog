@@ -11,6 +11,7 @@ set -e
 # 备份项目到仓库中
  git add .
  git commit -m "`date` "
+ git remote rm origingit remote add origin git@github.com:Linena/blog.git
  git push origin master
 
 blue "========================================="
@@ -32,8 +33,11 @@ git commit -m "`date` "
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:orangbus/orangbus.github.io.git master
-git push -f https://github.com/Linena/linena.github.io.git master
 
+#git push -f https://github.com/Linena/linena.github.io.git master
+
+git remote rm origingit remote add origin git@github.com:Linena/linena.github.io.git
+git push -f origin master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
