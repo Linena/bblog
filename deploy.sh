@@ -11,7 +11,7 @@ set -e
 # 备份项目到仓库中
  git add .
  git commit -m "`date` "
- git push https://github.com/Linena/blog.git master
+ git push origin master
 
 blue "========================================="
 blue "==============  备份成功！  ==============="
